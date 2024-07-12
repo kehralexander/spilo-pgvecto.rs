@@ -1,4 +1,4 @@
-FROM ghcr.io/zalando/spilo-15:3.2-p1
+FROM ghcr.io/zalando/spilo-16:3.2-p3
 
-RUN curl -L https://github.com/tensorchord/pgvecto.rs/releases/download/v0.2.1/vectors-pg15_0.2.1_amd64.deb -o vectors-pg15_0.2.1_amd64.deb && \
-    dpkg -i vectors-pg15_0.2.1_amd64.deb && rm vectors-pg15_0.2.1_amd64.deb
+RUN curl -L https://github.com/tensorchord/pgvecto.rs/releases/download/v0.3.0/vectors-pg16_0.3.0_amd64.deb -o vectors-pg16_0.3.0_amd64.deb && \
+    dpkg -i vectors-pg16_0.3.0_amd64.deb && rm vectors-pg16_0.3.0_amd64.deb
